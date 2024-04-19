@@ -16,7 +16,7 @@ npm install express-vento
 
 ## Usage
 
-Set the `'view engine'` to `ventoEngine` inside `index.js`
+Set the `'view engine'` to `ventoEngine` inside your ex=ntry file
 
 ```js
 // index.js
