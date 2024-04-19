@@ -57,6 +57,40 @@ Then create a sample `views/index.vto` file
 </html>
 ```
 
+## DIY
+
+You really don't need this package, create & customise one yourself this way
+
+```js
+// index.js
+
+import express from 'express';
+import vento from 'ventojs';
+
+const app = express();
+app.set('views', './views');
+
+app.engine('vto', (filePath, options, callback) =>
+  vento()
+    .run(filePath, options)
+    .then(({ content }) => callback(null, content))
+    .catch((err) => callback(err))
+);
+app.set('view engine', 'vto'); 
+
+app.get('/', (req, res) => {
+  res.render('index', { title: 'Vento', body: 'Hello world!' });
+});
+
+const port = process.env.PORT || 3000;
+
+app.listen(port, () =>
+  console.log(`Server listening at http://localhost:${port}`)
+);
+
+```
+Enjoy ! PRs welcomed :)
+
 ## Roadmap
 
 - [ ] Tests
