@@ -3,7 +3,7 @@
 An Experimental Express.js template engine for Vento
 
 ## :warning: Supports ES Modules syntax only
-
+> set `"type": "module"` in package.json or use with `.mjs` files
 ---
 
 ## Installation
