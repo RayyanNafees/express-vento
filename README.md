@@ -61,7 +61,7 @@ Then create a sample `views/index.vto` file
 
 ## DIY
 
-You really don't need this package, create & customise one yourself this way
+You really don't need this package, create & customise a vento template engine for express yourself this way
 
 ```js
 // index.js
