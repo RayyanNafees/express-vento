@@ -3,7 +3,9 @@
 An Experimental Express.js template engine for Vento
 
 ## :warning: Supports ES Modules syntax only
-> set `"type": "module"` in package.json or use with `.mjs` files
+Vento only exports is functions as ESM being developed for Deno, will need to fork the repo or make it compatible with CJS syntax
+For now u need to set `"type": "module"` in package.json or import within `.mjs` files to use the library
+
 ---
 
 ## Installation
