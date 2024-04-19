@@ -54,7 +54,7 @@ Then create a sample `views/index.vto` file
   <title>{{title}}</title>
 </head>
 <body>
-  <h1>{{heading}}</h1>
+  <h1>{{body}}</h1>
 </body>
 </html>
 ```
