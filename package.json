@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "ventojs": "^0.12.5"
+  },
+  "name": "express-vento",
+  "type": "module",
+  "description": "Experimental Vento Template Engine for Express.js - Supports ES Modules only !",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module":"index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayyanNafees/express-vento.git"
+  },
+  "keywords": ["vento", "ventojs", "express", "template", "engine", "node"],
+  "author": "Rayyan Nafees",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RayyanNafees/express-vento/issues"
+  },
+  "homepage": "https://github.com/RayyanNafees/express-vento#readme"
+}
